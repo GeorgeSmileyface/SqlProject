@@ -5,7 +5,8 @@ string connectionString = "Server = localhost;" +
     "Database = SqlTeachingDb;" +
     "User Id = sa;" +
     "Password = 1234;" +
-    "Trusted_Connection = True;";
+    "Trusted_Connection = True;" +
+    "TrustServerCertificate = True;";
 
 var person = new Person(1, "John", "Doe", "1234 Elm St", "Springfield); DROP TABLE Persons;");
 
